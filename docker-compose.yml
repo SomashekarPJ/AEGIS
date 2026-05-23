@@ -1,0 +1,20 @@
+services:
+  aegis-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aegis_core_daemon
+    # Privileged mode is mandatory for mounting cgroups v2 and unsharing kernel namespaces
+    privileged: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - aegis-data:/app/data
+      # Mount host cgroups v2 tree to allow low-level resource limits governance inside container
+      - /sys/fs/cgroup:/sys/fs/cgroup:rw
+    environment:
+      - AEGIS_DAEMON_URL=http://localhost:8080
+    restart: unless-stopped
+
+volumes:
+  aegis-data:

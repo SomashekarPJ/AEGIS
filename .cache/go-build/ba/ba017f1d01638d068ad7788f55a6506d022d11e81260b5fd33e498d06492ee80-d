@@ -1,0 +1,8 @@
+# test log
+getenv GOTMPDIR
+stat C:\Users\soma2\AppData\Local\Temp\TestWorkloadScanEndpointClassifiesUploads3011479446\001
+stat C:\Users\soma2\AppData\Local\Temp\TestWorkloadScanEndpointClassifiesUploads3011479446\001\audit.jsonl
+stat ./dist
+stat ./dashboard/dist
+open ..\..\demo\malware.py
+open C:\Users\soma2\AppData\Local\Temp

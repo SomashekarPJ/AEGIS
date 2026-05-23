@@ -1,0 +1,36 @@
+sandbox:
+  name: dynamic-malware-quarantine
+
+filesystem:
+  read_only:
+    - /usr
+    - /bin
+    - /lib
+    - /lib64
+
+  deny:
+    - /etc/shadow
+    - /etc/sudoers
+    - /home
+    - /root
+
+network:
+  allow:
+    - api.github.com
+    - login.microsoft.com
+
+resources:
+  memory: 256MB
+  cpu: 1.0
+  disk: 100MB
+
+syscalls:
+  deny:
+    - ptrace
+    - mount
+    - reboot
+    - kexec_load
+    - unshare
+
+execution:
+  timeout: 60s

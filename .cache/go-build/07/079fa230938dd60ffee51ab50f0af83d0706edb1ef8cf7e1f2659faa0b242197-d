@@ -1,0 +1,22 @@
+# test log
+getenv GOTMPDIR
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadAllowsCleanScript1450403217\001\normal.py
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadAllowsCleanScript1450403217\001\normal.py
+open C:\Users\soma2\AppData\Local\Temp
+getenv GOTMPDIR
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadFlagsSuspiciousScript2023663014\001\normal_named_file.py
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadFlagsSuspiciousScript2023663014\001\normal_named_file.py
+open C:\Users\soma2\AppData\Local\Temp
+open ..\..\demo\malware.py
+getenv GOTMPDIR
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadDoesNotTrustNameAlone3045494443\001\malware-demo-name-only.py
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousWorkloadDoesNotTrustNameAlone3045494443\001\malware-demo-name-only.py
+open C:\Users\soma2\AppData\Local\Temp
+getenv GOTMPDIR
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousPDFDetectsOpenActionJavaScript2314818655\001\document.pdf
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousPDFDetectsOpenActionJavaScript2314818655\001\document.pdf
+open C:\Users\soma2\AppData\Local\Temp
+getenv GOTMPDIR
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousPDFAllowsCleanPDF1925774096\001\invoice.pdf
+open C:\Users\soma2\AppData\Local\Temp\TestIsMaliciousPDFAllowsCleanPDF1925774096\001\invoice.pdf
+open C:\Users\soma2\AppData\Local\Temp
