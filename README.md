@@ -200,4 +200,4 @@ execution:
 ### Defense Actions Trigger Matrix
 AegisCore evaluates system calls and memory allocations in real-time, calculating a dynamic **Risk Rating** index:
 - **Risk Score >= 50**: Injects dynamic **cgroup throttling**. Reduces CPU share to 5.0% and constrains RAM ceilings (visible as yellow alerts in the visualizer).
-- **Risk Score >= 80**: Triggers **Active Threat Quarantine**. Broadcasts red alerts, locks down socket paths, freezes guest processes via a SIGSTOP kernel signal, and isolates the workload completely.
+- **Risk Score >= 80**: Triggers **Active Threat Quarantine**. Broadcasts red alerts, locks down socket paths, freezes guest processes via a SIGSTOP kernel signal, and isolates the workload completely.   
